@@ -1,10 +1,10 @@
-package ca.i88.sample.pattern.observer.ee;
+package info.goyun.sample.pattern.observer.ee;
 
 /**
  *
  * @author it.i88.ca
  */
-class I88caEvent {
+class GoyunInfoEvent {
 
     private String msg;
 
@@ -12,7 +12,7 @@ class I88caEvent {
         return msg;
     }
 
-    public I88caEvent(String msg) {
+    public GoyunInfoEvent(String msg) {
         this.msg = msg;
     }
 

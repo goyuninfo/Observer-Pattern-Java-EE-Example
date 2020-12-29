@@ -1,4 +1,4 @@
-package ca.i88.sample.pattern.observer.ee;
+package info.goyun.sample.pattern.observer.ee;
 
 import javax.ejb.Stateless;
 import javax.enterprise.event.Observes;
@@ -8,9 +8,9 @@ import javax.enterprise.event.Observes;
  * @author it.i88.ca
  */
 @Stateless
-public class I88caEventListener {
+public class GoyunInfoEventListener {
 
-    public void listen(@Observes I88caEvent event) {
+    public void listen(@Observes GoyunInfoEvent event) {
         System.out.println(event.getMsg());
     }
 

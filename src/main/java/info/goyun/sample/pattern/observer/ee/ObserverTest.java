@@ -1,4 +1,4 @@
-package ca.i88.sample.pattern.observer.ee;
+package info.goyun.sample.pattern.observer.ee;
 
 import java.util.Date;
 import javax.enterprise.event.Event;
@@ -13,10 +13,10 @@ import javax.inject.Named;
 public class ObserverTest {
 
     @Inject
-    Event<I88caEvent> event;
+    Event<GoyunInfoEvent> event;
 
     public void fire() {
-        event.fire(new I88caEvent("event fired at: " + new Date()));
+        event.fire(new GoyunInfoEvent("event fired at: " + new Date()));
     }
 
 }
